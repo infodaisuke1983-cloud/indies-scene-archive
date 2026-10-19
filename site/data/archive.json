@@ -1,19 +1,324 @@
 {
-  "schemaVersion": "1.9",
+  "schemaVersion": "2.1",
   "audience": "public",
-  "generatedAt": "2026-10-19T09:55:05.766Z",
+  "generatedAt": "2026-10-19T15:14:01.103Z",
   "bands": [
     {
       "id": "c-b58d0d97-727d-41d2-a06f-409a429ca1b3",
       "name": "LOSTAGE",
       "reading": "",
-      "prefectures": [],
+      "prefectures": [
+        "奈良県"
+      ],
+      "labels": [
+        "THROAT RECORDS"
+      ],
       "videos": [
         {
           "id": "B4N_G78Wsvk",
           "title": "LOSTAGE「BLUE」",
           "url": "https://www.youtube.com/watch?v=B4N_G78Wsvk",
-          "embed": false
+          "embed": true
+        }
+      ]
+    },
+    {
+      "id": "c-042e02fa-a9c9-4537-a119-4bcf24189987",
+      "name": "さよならポエジー",
+      "reading": "",
+      "prefectures": [],
+      "labels": [
+        "THE NINTH APOLLO"
+      ],
+      "videos": [
+        {
+          "id": "wzHT8lMHFFM",
+          "title": "さよならポエジー 前線に告ぐ(Official Video)",
+          "url": "https://www.youtube.com/watch?v=wzHT8lMHFFM",
+          "embed": true
+        }
+      ]
+    },
+    {
+      "id": "c-6b6a4334-e414-4e07-bc9f-31ac317c4dd9",
+      "name": "bacho",
+      "reading": "",
+      "prefectures": [],
+      "labels": [
+        "cosmicnote"
+      ],
+      "videos": [
+        {
+          "id": "7bnRCXLGvRg",
+          "title": "bacho - UDDUP",
+          "url": "https://www.youtube.com/watch?v=7bnRCXLGvRg",
+          "embed": true
+        },
+        {
+          "id": "JWfCmFxe5WA",
+          "title": "bacho - 平和のかたち",
+          "url": "https://www.youtube.com/watch?v=JWfCmFxe5WA",
+          "embed": true
+        },
+        {
+          "id": "fjHmYpVsF5Q",
+          "title": "bacho - Boy Meets Music",
+          "url": "https://www.youtube.com/watch?v=fjHmYpVsF5Q",
+          "embed": true
+        }
+      ]
+    },
+    {
+      "id": "c-9fe911e9-9ee3-461a-ae16-bc04d5578b4f",
+      "name": "ZOKUDAMS",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-59440ea4-e4cc-4991-ba1c-7f982b6778d3",
+      "name": "その日暮らし",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-bc7006d7-8240-4415-ad79-37a0097c21e9",
+      "name": "ベランパレード",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-00622a2f-9c87-4856-85ff-98934b54ef70",
+      "name": "SuiseiNoboAz",
+      "reading": "",
+      "prefectures": [],
+      "labels": [
+        "SuiseiNorecoRd",
+        "& records"
+      ],
+      "videos": [
+        {
+          "id": "e3XL3r7uNB8",
+          "title": "SuiseiNoboAz / 3020",
+          "url": "https://www.youtube.com/watch?v=e3XL3r7uNB8",
+          "embed": true
+        }
+      ]
+    },
+    {
+      "id": "c-341424df-e2ea-4c2e-8054-e36feba6e96f",
+      "name": "cinema staff",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-dc5b5f00-af72-4348-9864-7edcd37d5444",
+      "name": "ENDZWECK",
+      "reading": "",
+      "prefectures": [],
+      "labels": [
+        "cosmicnote"
+      ],
+      "videos": []
+    },
+    {
+      "id": "c-5dcbe9ae-d502-45ba-9118-debab0f56d46",
+      "name": "heliotrope",
+      "reading": "",
+      "prefectures": [],
+      "labels": [
+        "cosmicnote"
+      ],
+      "videos": []
+    },
+    {
+      "id": "c-e8947b15-d1ff-4100-8086-6fedccf790b9",
+      "name": "FORLIFE",
+      "reading": "",
+      "prefectures": [],
+      "labels": [
+        "cosmicnote"
+      ],
+      "videos": []
+    },
+    {
+      "id": "c-9444f174-bfec-4509-802e-701f985b0358",
+      "name": "noy",
+      "reading": "",
+      "prefectures": [],
+      "labels": [
+        "cosmicnote"
+      ],
+      "videos": []
+    },
+    {
+      "id": "c-da77d819-93c6-4bf2-98b7-e9b2df383478",
+      "name": "nervous light of sunday",
+      "reading": "",
+      "prefectures": [],
+      "labels": [
+        "cosmicnote"
+      ],
+      "videos": []
+    },
+    {
+      "id": "c-5c2b24b1-f644-4142-9828-0be3aa6ee428",
+      "name": "akutagawa",
+      "reading": "",
+      "prefectures": [],
+      "labels": [
+        "cosmicnote"
+      ],
+      "videos": []
+    },
+    {
+      "id": "c-2f93dd3a-f0a4-4a24-aa12-a28b3d7e8383",
+      "name": "noid",
+      "reading": "",
+      "prefectures": [],
+      "labels": [
+        "& records"
+      ],
+      "videos": []
+    },
+    {
+      "id": "c-2d8a8b22-2ac0-499d-9ce0-2dc6c535c085",
+      "name": "my letter",
+      "reading": "",
+      "prefectures": [
+        "京都府"
+      ],
+      "labels": [
+        "& records"
+      ],
+      "videos": []
+    },
+    {
+      "id": "c-b85664ad-b94f-496a-ab45-ab32858c06c6",
+      "name": "sayonarablue",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-118a06f1-af62-448a-92a3-023a518f2857",
+      "name": "Hi-STANDARD",
+      "reading": "",
+      "prefectures": [],
+      "labels": [
+        "PIZZA OF DEATH RECORDS"
+      ],
+      "videos": [
+        {
+          "id": "n06dQoe1tG0",
+          "title": "Hi-STANDARD -The Gift(OFFICIAL VIDEO)",
+          "url": "https://www.youtube.com/watch?v=n06dQoe1tG0",
+          "embed": true
+        }
+      ]
+    },
+    {
+      "id": "c-e3dc0ab8-9520-4c38-badd-af6e75e05e9f",
+      "name": "Some Life",
+      "reading": "",
+      "prefectures": [],
+      "labels": [
+        "TRUST RECORDS"
+      ],
+      "videos": [
+        {
+          "id": "AUYPp3J7010",
+          "title": "Some Life  【Mayfly】 Music Video",
+          "url": "https://www.youtube.com/watch?v=AUYPp3J7010",
+          "embed": true
+        }
+      ]
+    },
+    {
+      "id": "c-e1d590da-41e8-49a7-be95-92eafa2e9903",
+      "name": "CLIMB THE MIND",
+      "reading": "",
+      "prefectures": [],
+      "labels": [
+        "STIFF SLACK"
+      ],
+      "videos": [
+        {
+          "id": "UAMtTL4Zt5c",
+          "title": "Climb The Mind\"ベレー帽は飛ばされて\"",
+          "url": "https://www.youtube.com/watch?v=UAMtTL4Zt5c",
+          "embed": true
+        }
+      ]
+    },
+    {
+      "id": "c-0cb1a6e1-f044-42e0-89aa-8b60d73883b6",
+      "name": "NOT WONK",
+      "reading": "",
+      "prefectures": [
+        "北海道"
+      ],
+      "labels": [
+        "KiliKiliVilla"
+      ],
+      "videos": [
+        {
+          "id": "JExpk1HXqfY",
+          "title": "NOT WONK - Laughing Nerds And A Wallflower (ALBUM ver)",
+          "url": "https://www.youtube.com/watch?v=JExpk1HXqfY",
+          "embed": true
+        }
+      ]
+    },
+    {
+      "id": "c-8aea338a-5432-462b-ad3c-961f45fe8ec1",
+      "name": "NINJA BOYZ",
+      "reading": "",
+      "prefectures": [],
+      "labels": [
+        "I HATE SMOKE RECORDS"
+      ],
+      "videos": [
+        {
+          "id": "ujEC2VdC370",
+          "title": "NINJA BOYZ / SUPER NERD〜summer 【Official Video】",
+          "url": "https://www.youtube.com/watch?v=ujEC2VdC370",
+          "embed": true
+        }
+      ]
+    },
+    {
+      "id": "c-d4c714bb-72e9-438c-bac0-bbb53e304a1a",
+      "name": "evony",
+      "reading": "",
+      "prefectures": [],
+      "labels": [
+        "further platonic records"
+      ],
+      "videos": []
+    },
+    {
+      "id": "c-04e74435-6fa5-434d-a23f-a2ef5862b996",
+      "name": "THE FOREVER YOUNG",
+      "reading": "",
+      "prefectures": [],
+      "labels": [
+        "STEP UP RECORDS"
+      ],
+      "videos": [
+        {
+          "id": "eB2F3DjTJDE",
+          "title": "THE FOREVER YOUNG -GO STRAIGHT- 【Official Video】",
+          "url": "https://www.youtube.com/watch?v=eB2F3DjTJDE",
+          "embed": true
         }
       ]
     }
