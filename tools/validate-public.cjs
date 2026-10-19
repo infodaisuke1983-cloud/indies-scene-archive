@@ -1,3 +1,4 @@
+require('./test-public.cjs');
 const fs=require('node:fs'),path=require('node:path'),C=require('../site/assets/catalog.js');
 const root=path.resolve(__dirname,'../site'),data=C.validate(JSON.parse(fs.readFileSync(path.join(root,'data/archive.json'),'utf8')));
 if(JSON.stringify(data).includes('demo-band-'))throw Error('開発用データが公開サイトに含まれています');
