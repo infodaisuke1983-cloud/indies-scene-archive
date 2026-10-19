@@ -5,4 +5,4 @@ for(const f of ['index.html','.nojekyll','assets/catalog.js','assets/app.js','as
 const html=fs.readFileSync(path.join(root,'index.html'),'utf8');for(const m of html.matchAll(/(?:src|href)="(\.\/[^"?#]+)(?:\?[^"#]*)?"/g))if(!fs.existsSync(path.resolve(root,m[1])))throw Error('Broken relative asset '+m[1]);
 if(/(?:src|href)="\/(?!\/)/.test(html))throw Error('Project Pagesには相対URLを使用してください');
 if(fs.readdirSync(path.join(root,'data')).some(f=>f!=='archive.json'))throw Error('公開データ以外のファイルがあります');
-console.log('Public release validated:',data.bands.length,'bands;',data.relations.length,'relations; no demo data.');
+console.log('Public release validated:',data.bands.length,'bands;',data.bands.reduce((n,b)=>n+b.videos.length,0),'videos; no demo data.');
