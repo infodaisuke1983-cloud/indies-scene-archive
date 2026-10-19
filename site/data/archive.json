@@ -1,6 +1,21 @@
 {
   "schemaVersion": "1.9",
   "audience": "public",
-  "generatedAt": "2026-10-19T05:23:30.799Z",
-  "bands": []
+  "generatedAt": "2026-10-19T09:55:05.766Z",
+  "bands": [
+    {
+      "id": "c-b58d0d97-727d-41d2-a06f-409a429ca1b3",
+      "name": "LOSTAGE",
+      "reading": "",
+      "prefectures": [],
+      "videos": [
+        {
+          "id": "B4N_G78Wsvk",
+          "title": "LOSTAGE「BLUE」",
+          "url": "https://www.youtube.com/watch?v=B4N_G78Wsvk",
+          "embed": false
+        }
+      ]
+    }
+  ]
 }
