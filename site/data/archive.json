@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "audience": "public",
-  "generatedAt": "2026-10-19T15:14:01.103Z",
+  "generatedAt": "2026-10-19T21:13:18.487Z",
   "bands": [
     {
       "id": "c-b58d0d97-727d-41d2-a06f-409a429ca1b3",
@@ -90,7 +90,14 @@
       "reading": "",
       "prefectures": [],
       "labels": [],
-      "videos": []
+      "videos": [
+        {
+          "id": "EiZRTMA-oZc",
+          "title": "ベランパレード 「メモリーズ」（OFFICIAL MUSIC VIDEO）",
+          "url": "https://www.youtube.com/watch?v=EiZRTMA-oZc",
+          "embed": true
+        }
+      ]
     },
     {
       "id": "c-00622a2f-9c87-4856-85ff-98934b54ef70",
@@ -126,7 +133,20 @@
       "labels": [
         "cosmicnote"
       ],
-      "videos": []
+      "videos": [
+        {
+          "id": "rFhospIwG6M",
+          "title": "ENDZWECK // Before The World Ends",
+          "url": "https://www.youtube.com/watch?v=rFhospIwG6M",
+          "embed": true
+        },
+        {
+          "id": "YQarbhi0zKQ",
+          "title": "ENDZWECK // Apathetic Expression",
+          "url": "https://www.youtube.com/watch?v=YQarbhi0zKQ",
+          "embed": true
+        }
+      ]
     },
     {
       "id": "c-5dcbe9ae-d502-45ba-9118-debab0f56d46",
@@ -136,7 +156,14 @@
       "labels": [
         "cosmicnote"
       ],
-      "videos": []
+      "videos": [
+        {
+          "id": "4-CMzIiLfSQ",
+          "title": "heliotrope // 大きな文字が降ってきて",
+          "url": "https://www.youtube.com/watch?v=4-CMzIiLfSQ",
+          "embed": true
+        }
+      ]
     },
     {
       "id": "c-e8947b15-d1ff-4100-8086-6fedccf790b9",
@@ -172,7 +199,9 @@
       "id": "c-5c2b24b1-f644-4142-9828-0be3aa6ee428",
       "name": "akutagawa",
       "reading": "",
-      "prefectures": [],
+      "prefectures": [
+        "東京都"
+      ],
       "labels": [
         "cosmicnote"
       ],
@@ -186,7 +215,14 @@
       "labels": [
         "& records"
       ],
-      "videos": []
+      "videos": [
+        {
+          "id": "tewf456Gaxk",
+          "title": "noid - 1983-2020-",
+          "url": "https://www.youtube.com/watch?v=tewf456Gaxk",
+          "embed": true
+        }
+      ]
     },
     {
       "id": "c-2d8a8b22-2ac0-499d-9ce0-2dc6c535c085",
@@ -198,7 +234,14 @@
       "labels": [
         "& records"
       ],
-      "videos": []
+      "videos": [
+        {
+          "id": "RJph8R_o6oY",
+          "title": "my letter \"アメリカ\" (Official Music Video)",
+          "url": "https://www.youtube.com/watch?v=RJph8R_o6oY",
+          "embed": true
+        }
+      ]
     },
     {
       "id": "c-b85664ad-b94f-496a-ab45-ab32858c06c6",
@@ -206,7 +249,14 @@
       "reading": "",
       "prefectures": [],
       "labels": [],
-      "videos": []
+      "videos": [
+        {
+          "id": "X0fI9BHMgxQ",
+          "title": "frostbite - sayonarablue (Official Video)",
+          "url": "https://www.youtube.com/watch?v=X0fI9BHMgxQ",
+          "embed": true
+        }
+      ]
     },
     {
       "id": "c-118a06f1-af62-448a-92a3-023a518f2857",
@@ -221,6 +271,12 @@
           "id": "n06dQoe1tG0",
           "title": "Hi-STANDARD -The Gift(OFFICIAL VIDEO)",
           "url": "https://www.youtube.com/watch?v=n06dQoe1tG0",
+          "embed": true
+        },
+        {
+          "id": "tiYiT08wU-g",
+          "title": "Hi-STANDARD -Free (OFFICIAL VIDEO)",
+          "url": "https://www.youtube.com/watch?v=tiYiT08wU-g",
           "embed": true
         }
       ]
@@ -318,6 +374,338 @@
           "id": "eB2F3DjTJDE",
           "title": "THE FOREVER YOUNG -GO STRAIGHT- 【Official Video】",
           "url": "https://www.youtube.com/watch?v=eB2F3DjTJDE",
+          "embed": true
+        }
+      ]
+    },
+    {
+      "id": "c-b1be464a-84ad-438b-96a9-bb8bfe092e4a",
+      "name": "HAWAIIAN6",
+      "reading": "",
+      "prefectures": [],
+      "labels": [
+        "IKKI NOT DEAD"
+      ],
+      "videos": [
+        {
+          "id": "-SwtfJNocsM",
+          "title": "HAWAIIAN6 / Rusted",
+          "url": "https://www.youtube.com/watch?v=-SwtfJNocsM",
+          "embed": true
+        },
+        {
+          "id": "JMDSrt8qNek",
+          "title": "HAWAIIAN6 : Stand By You [OFFICIAL VIDEO]",
+          "url": "https://www.youtube.com/watch?v=JMDSrt8qNek",
+          "embed": true
+        }
+      ]
+    },
+    {
+      "id": "c-636abb8b-be24-4637-9cfe-e9d5da791fe6",
+      "name": "locofrank",
+      "reading": "",
+      "prefectures": [],
+      "labels": [
+        "IKKI NOT DEAD"
+      ],
+      "videos": [
+        {
+          "id": "PjYGmlWHPqw",
+          "title": "locofrank / CHOICE  [OFFICIAL VIDEO]",
+          "url": "https://www.youtube.com/watch?v=PjYGmlWHPqw",
+          "embed": true
+        },
+        {
+          "id": "TlLzKRYpVsQ",
+          "title": "locofrank / Reborn [OFFICIAL VIDEO]",
+          "url": "https://www.youtube.com/watch?v=TlLzKRYpVsQ",
+          "embed": true
+        }
+      ]
+    },
+    {
+      "id": "c-84a23ba0-ac80-446d-b269-1187b5326445",
+      "name": "HONEST",
+      "reading": "",
+      "prefectures": [],
+      "labels": [
+        "PIZZA OF DEATH RECORDS"
+      ],
+      "videos": [
+        {
+          "id": "AWOCidEIHLI",
+          "title": "HONEST - Take My Life Back（OFFICIAL VIDEO）",
+          "url": "https://www.youtube.com/watch?v=AWOCidEIHLI",
+          "embed": true
+        }
+      ]
+    },
+    {
+      "id": "c-81b5d484-0cd4-4c10-8e25-d413d2530df4",
+      "name": "KUZIRA",
+      "reading": "",
+      "prefectures": [],
+      "labels": [
+        "PIZZA OF DEATH RECORDS"
+      ],
+      "videos": [
+        {
+          "id": "CLwTiE5IMX0",
+          "title": "KUZIRA - So Far So Good （OFFICIAL VIDEO）",
+          "url": "https://www.youtube.com/watch?v=CLwTiE5IMX0",
+          "embed": true
+        }
+      ]
+    },
+    {
+      "id": "c-78c38612-a952-4a7d-bb54-ec85a6be7749",
+      "name": "May Forth",
+      "reading": "",
+      "prefectures": [],
+      "labels": [
+        "TRUST RECORDS"
+      ],
+      "videos": [
+        {
+          "id": "LfUp0SZYbOA",
+          "title": "May Forth 【彼方満天】Music Video",
+          "url": "https://www.youtube.com/watch?v=LfUp0SZYbOA",
+          "embed": true
+        },
+        {
+          "id": "3fOCAuSvZcs",
+          "title": "May Forth【春は永遠】Music Video",
+          "url": "https://www.youtube.com/watch?v=3fOCAuSvZcs",
+          "embed": true
+        }
+      ]
+    },
+    {
+      "id": "c-557909a8-5103-46da-8b85-0da18f496ea3",
+      "name": "LUCCI",
+      "reading": "",
+      "prefectures": [],
+      "labels": [
+        "TRUST RECORDS"
+      ],
+      "videos": [
+        {
+          "id": "MDmfUQgiQbw",
+          "title": "LUCCI【Music Video】ロスタイム",
+          "url": "https://www.youtube.com/watch?v=MDmfUQgiQbw",
+          "embed": true
+        },
+        {
+          "id": "PbaKA8SpFGI",
+          "title": "LUCCI【君に幸あれ】Music Video",
+          "url": "https://www.youtube.com/watch?v=PbaKA8SpFGI",
+          "embed": true
+        }
+      ]
+    },
+    {
+      "id": "c-c73d8fe8-7827-4a3b-b740-54c60fb38830",
+      "name": "malegoat",
+      "reading": "",
+      "prefectures": [
+        "東京都"
+      ],
+      "labels": [
+        "STIFF SLACK"
+      ],
+      "videos": []
+    },
+    {
+      "id": "c-d71392d3-02b1-4193-988b-ff15c7260b9a",
+      "name": "bed",
+      "reading": "",
+      "prefectures": [
+        "京都府"
+      ],
+      "labels": [
+        "STIFF SLACK"
+      ],
+      "videos": [
+        {
+          "id": "r2zW35LXn-g",
+          "title": "bed - 繰り返すのさ",
+          "url": "https://www.youtube.com/watch?v=r2zW35LXn-g",
+          "embed": true
+        }
+      ]
+    },
+    {
+      "id": "c-f1c4808b-8eed-4fcb-995d-e47c08ab1ee5",
+      "name": "LITE",
+      "reading": "",
+      "prefectures": [],
+      "labels": [
+        "STIFF SLACK"
+      ],
+      "videos": [
+        {
+          "id": "OTGFAbmdQoQ",
+          "title": "LITE / D (feat.TABU ZOMBIE)",
+          "url": "https://www.youtube.com/watch?v=OTGFAbmdQoQ",
+          "embed": true
+        },
+        {
+          "id": "tTVs1MoR2kA",
+          "title": "LITE / Echolocation",
+          "url": "https://www.youtube.com/watch?v=tTVs1MoR2kA",
+          "embed": true
+        }
+      ]
+    },
+    {
+      "id": "c-d0488fad-521f-4e03-925b-1a9fb4d7c6f8",
+      "name": "DENIMS",
+      "reading": "",
+      "prefectures": [],
+      "labels": [
+        "FLAKE SOUNDS"
+      ],
+      "videos": [
+        {
+          "id": "3RzkXNgU27c",
+          "title": "DENIMS - \"fools\" (Official Music Video)",
+          "url": "https://www.youtube.com/watch?v=3RzkXNgU27c",
+          "embed": true
+        },
+        {
+          "id": "4NQmNLlvyqA",
+          "title": "DENIMS - \"syotyu-mimai\"(Official Music Video)",
+          "url": "https://www.youtube.com/watch?v=4NQmNLlvyqA",
+          "embed": true
+        }
+      ]
+    },
+    {
+      "id": "c-cfdc2282-283b-4713-b1d9-b3eb95b62551",
+      "name": "CAR10",
+      "reading": "",
+      "prefectures": [],
+      "labels": [
+        "KiliKiliVilla"
+      ],
+      "videos": [
+        {
+          "id": "bKjV06EQqvw",
+          "title": "CAR10 / Mr.Bread",
+          "url": "https://www.youtube.com/watch?v=bKjV06EQqvw",
+          "embed": true
+        },
+        {
+          "id": "4bauSGu5BQ4",
+          "title": "CAR10 2019-01-05 新代田FEVER KiliKiliVilla新年会2019",
+          "url": "https://www.youtube.com/watch?v=4bauSGu5BQ4",
+          "embed": true
+        }
+      ]
+    },
+    {
+      "id": "c-1bedfee2-57c2-4f6d-b31d-227c603ea434",
+      "name": "KiNGONS",
+      "reading": "",
+      "prefectures": [],
+      "labels": [
+        "I HATE SMOKE RECORDS"
+      ],
+      "videos": [
+        {
+          "id": "wQz3_otPgsI",
+          "title": "KiNGONS / Good Old Days 【Official Video】",
+          "url": "https://www.youtube.com/watch?v=wQz3_otPgsI",
+          "embed": true
+        },
+        {
+          "id": "3-PO3808tI0",
+          "title": "KiNGONS / GO CITY LET'S GO!!【Official Video】",
+          "url": "https://www.youtube.com/watch?v=3-PO3808tI0",
+          "embed": true
+        }
+      ]
+    },
+    {
+      "id": "c-9078feb4-ee0e-47a3-8159-f8f14836e90c",
+      "name": "aoni",
+      "reading": "",
+      "prefectures": [],
+      "labels": [
+        "further platonic records"
+      ],
+      "videos": []
+    },
+    {
+      "id": "c-c340d542-fe5a-443c-9881-e57708f8ca2f",
+      "name": "HOLSTEIN",
+      "reading": "",
+      "prefectures": [],
+      "labels": [
+        "STEP UP RECORDS"
+      ],
+      "videos": []
+    },
+    {
+      "id": "c-25d5cf62-e194-404d-a9c1-0fa1e95a6483",
+      "name": "HERO COMPLEX",
+      "reading": "",
+      "prefectures": [],
+      "labels": [
+        "THE NINTH APOLLO"
+      ],
+      "videos": [
+        {
+          "id": "VACRu6Ge3KI",
+          "title": "HERO COMPLEX - 想 (LIVE)",
+          "url": "https://www.youtube.com/watch?v=VACRu6Ge3KI",
+          "embed": true
+        },
+        {
+          "id": "QGfWWBeTUi8",
+          "title": "HERO COMPLEX - Feel so good (LIVE)",
+          "url": "https://www.youtube.com/watch?v=QGfWWBeTUi8",
+          "embed": true
+        }
+      ]
+    },
+    {
+      "id": "c-fe73f314-ef87-4159-a945-3466af303f4a",
+      "name": "Suspended 4th",
+      "reading": "",
+      "prefectures": [],
+      "labels": [
+        "PIZZA OF DEATH RECORDS"
+      ],
+      "videos": [
+        {
+          "id": "LOIVOfQ4YBY",
+          "title": "Suspended 4th -SLEEPLESS (OFFICIAL VIDEO)",
+          "url": "https://www.youtube.com/watch?v=LOIVOfQ4YBY",
+          "embed": true
+        },
+        {
+          "id": "FCZ6mHngKeQ",
+          "title": "Suspended 4th -STORMED (OFFICIAL VIDEO)",
+          "url": "https://www.youtube.com/watch?v=FCZ6mHngKeQ",
+          "embed": true
+        }
+      ]
+    },
+    {
+      "id": "c-db9119d8-2cc7-409f-854a-83245308fc32",
+      "name": "DRADNATS",
+      "reading": "",
+      "prefectures": [],
+      "labels": [
+        "PIZZA OF DEATH RECORDS"
+      ],
+      "videos": [
+        {
+          "id": "4ckzMOxn_Ss",
+          "title": "DRADNATS - Stay (OFFICIAL VIDEO)",
+          "url": "https://www.youtube.com/watch?v=4ckzMOxn_Ss",
           "embed": true
         }
       ]
