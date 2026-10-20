@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "audience": "public",
-  "generatedAt": "2026-10-19T21:13:18.487Z",
+  "generatedAt": "2026-10-20T09:45:11.542Z",
   "bands": [
     {
       "id": "c-b58d0d97-727d-41d2-a06f-409a429ca1b3",
@@ -709,6 +709,2052 @@
           "embed": true
         }
       ]
+    },
+    {
+      "id": "c-9fcd300d-dbc2-49b9-9662-b92c5bb0fd5f",
+      "name": "3cm tour",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": [],
+      "aliases": [
+        "3cmtour"
+      ]
+    },
+    {
+      "id": "c-7fd447fd-80cc-4928-b8f4-4ef18f53397e",
+      "name": "COWPERS",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-1a1723e0-cbbd-48c6-922b-5f768429cd2f",
+      "name": "レフトスピーカーアッシェ",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-137c2408-c55c-40f9-8848-0895fe84df02",
+      "name": "killie",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-297732b4-f2c0-455f-a437-ab36dc5c9662",
+      "name": "MIRROR",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-0bf3467a-ad96-45a5-abdc-1171995298dd",
+      "name": "ATATA",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-24539f6e-e170-4ddc-9a66-d3c8c13f761e",
+      "name": "AS MEIAS",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-778e5eb3-8243-47e4-8230-8f186a6c43c9",
+      "name": "NENEM",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-e48e2169-aec4-4e13-8397-e356a6ad6eee",
+      "name": "JOURNAL SPY EFFORT",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-139972f5-5374-4cf8-92c4-4b2d74ebc89a",
+      "name": "umbra",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-4c19f3c2-a8ea-4668-b366-596b9f5ccc04",
+      "name": "after forever",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-3013d15c-e87c-45f4-8a71-e5169d953455",
+      "name": "WiLL",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-4190b0af-acc6-4a01-b55c-e918fec92be6",
+      "name": "sora",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-aa37255c-59f7-4927-81cd-4c6d3f0606be",
+      "name": "CLEANER",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-962995b0-f542-490b-9071-db43a26ba414",
+      "name": "black line fever",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-995cc383-7acd-4892-a6c9-5a9a592bd937",
+      "name": "SPIRAL CHORD",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-8248c24a-7fb1-4016-be07-332db40758d5",
+      "name": "zArAme",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-b2404d07-95e2-4e9a-99f2-0aca02839393",
+      "name": "SAKHALIN TV",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-db6a8b3f-90e8-4b35-a627-0eb432424b40",
+      "name": "theSun",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": [],
+      "aliases": [
+        "The Sun"
+      ]
+    },
+    {
+      "id": "c-fef12b8a-20d6-49a1-8708-c2cded75134c",
+      "name": "moonwalk",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-66696708-4838-4081-b78f-7be9a1181159",
+      "name": "Discharming man",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-b4f8945b-f551-44b4-bde5-51d59e4c4d2c",
+      "name": "MYCHORD",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-34abebd7-4f18-4b5b-85b7-77b6ae538589",
+      "name": "DESERT",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-b1198e4e-cb67-4fe7-92d3-4c1e5a363123",
+      "name": "Olololop",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-4aac0276-8393-4755-b47b-f6829b770bc2",
+      "name": "200MPH",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-08f2927f-307c-4da9-af96-85ceda0031d1",
+      "name": "DISCOTORTION",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-fee2a126-2a11-4b87-b7b6-9f0115a43a54",
+      "name": "eveparty",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-30f3691b-81a8-4907-8fbf-ece1b39bf053",
+      "name": "SOSITE",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-09b294b9-927b-48cf-a4cb-9f97d8d7f2b9",
+      "name": "BALLOONS",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-382399f2-e4e0-4d2b-9ee4-59d03a38a5db",
+      "name": "KAOSPILOT",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-08c03412-8325-4ac0-b843-153da7a8d8c7",
+      "name": "my head swims",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-b16072a0-05c2-4c7c-9b99-697cf3f0b7cc",
+      "name": "STUBBORN FATHER",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-7cf5ed3e-a9f9-46ad-a799-8a79cfdf47f4",
+      "name": "R3-N7",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-53841e8a-344e-42de-9558-3021fa070548",
+      "name": "yarmulke",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-36168976-5da8-49bf-b959-e2bd053ff726",
+      "name": "FUCK YOU HEROES",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-60d59205-eda3-4eab-b206-13125d04a704",
+      "name": "curve",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-37ba49f9-5d68-43ec-b5d2-16970133711e",
+      "name": "FUGAZI",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-19b0a49f-df5b-4ea3-bf51-e60d7819453d",
+      "name": "NEXT STYLE",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-7d852194-f8f8-469d-9cf2-fda3c56202d2",
+      "name": "AEROSCREAM",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-c7140bd7-59b2-4812-a40f-22b72cdad7e3",
+      "name": "THUGS",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-6fa53e07-a49d-4afe-8800-4848feb36fb4",
+      "name": "L!EF",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-9e90aaf8-ea89-455d-aa08-e5173066a8ae",
+      "name": "bufferins",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-03be0e17-bdcd-4813-b79e-03ad35d66328",
+      "name": "midnight parade",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-8fb8c606-dffc-46d6-b7e5-15375ca3f6d0",
+      "name": "sayonara balk",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-9f6801e8-c02d-47f7-bd52-f58543a402b6",
+      "name": "しょしょ",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-527b8398-410b-4174-a853-eae165047775",
+      "name": "forget me not",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-6980b1c7-3758-4eae-8923-0610b173ad35",
+      "name": "Khmer",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-9160af82-d6b1-4510-ba90-587ae3c81ea8",
+      "name": "Anchor",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-83a62b90-8ebf-4b6c-b0e6-16ab39a4e978",
+      "name": "The Oxide",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-00684e2e-9594-4b88-a56c-604d7520e239",
+      "name": "Peach Fuzz",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-7d5d3ee3-bd60-4aef-8912-ed6361ed38cc",
+      "name": "Gantz",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-b84a037d-fc31-4abe-9eab-b9a331b9934e",
+      "name": "Minority Blues Band",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-06a88647-153c-4422-9013-5c2ece3ad169",
+      "name": "Bowfura",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-ebd4ad30-0fd0-4182-a835-1b9ac11b9074",
+      "name": "Aghast",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-afdb4da7-490c-4d00-ba69-bc35343f4d49",
+      "name": "Nitro Mega Prayer",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-776bf51f-d601-4ff0-8dee-d4896aaabc9f",
+      "name": "Balboa",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-df912d37-83b7-46de-b573-d11b38c7c7fc",
+      "name": "Gauge Means Nothing",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-e5bbefd7-c370-47a0-be44-5d441bc7a8c9",
+      "name": "My Precious",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-ff7dc39c-40d8-4bd6-8adb-ddfcd57a342c",
+      "name": "Tiala",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-5704bc62-bff5-4d43-84b1-445f417b4f91",
+      "name": "Cohol",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-bed43033-63d8-4832-a96f-079696350021",
+      "name": "Utarid",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-96b1e99c-6c2f-4fcf-965f-c5a5ce474f84",
+      "name": "Deepslauter",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-e8aae6da-7a7c-4a55-be14-d1774e0a9b10",
+      "name": "Shift",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-947e3a7d-3d37-4d3f-9e31-0aa72408c332",
+      "name": "Nemo",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-13b08df6-f6e2-4647-ad6a-5ae7c78b230a",
+      "name": "Neoteny",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-e3fa1aa7-3933-4147-8c38-8ccbe8b31986",
+      "name": "Egoist For Men",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-78326c1b-1ac2-4972-8ead-c5e79d2ca7bf",
+      "name": "VOLUME DEALERS",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-e4e402a5-2ca6-4bcb-9d30-b5f736822ced",
+      "name": "DMBQ",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-b25a3d3e-5476-4754-9e9e-41b3249169a5",
+      "name": "U.G MAN",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-1e68d366-5f4e-4505-93f0-0284ac51f9b0",
+      "name": "NUMBER GIRL",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-9bd8545b-47f7-4709-bcdd-ae07405c1b8e",
+      "name": "SeaMeal",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-dda68750-e8b7-4770-8fd9-159d3ea3fb00",
+      "name": "Badge714",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-d479a0b6-eeb8-426c-acaa-1c681735b484",
+      "name": "The hatch",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-eef789a9-ab54-47e9-bd1b-4125ee38d479",
+      "name": "Leburta",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-2564f929-343c-46e5-8226-565902524d91",
+      "name": "VELTPUNCH",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-4d4d4cdf-9218-47b0-952f-85de50f21f1f",
+      "name": "BP.",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-1dbe895f-c261-4af5-9ab8-210fa94448a6",
+      "name": "ひとひら",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-354cd30e-0222-482a-b21d-ec179762bdb2",
+      "name": "sidenerds",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-7e2e57e8-da9e-427c-8758-038cd707000d",
+      "name": "1000 Travels Of Jawaharlal",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-525798d3-34bc-405e-8a8d-b3a70d5ed8d1",
+      "name": "Amok",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-bcf466c5-e1c9-461c-ad3c-bf92e5159038",
+      "name": "Anode",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-7a32ebcd-53a2-4e40-b6d1-0546fd180fc1",
+      "name": "Arrastrandose",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-f00f1859-8a51-4c7f-8190-c389cdbe7c2e",
+      "name": "Beirut5",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-cd13b7e0-7f98-4ced-926f-603b46c4a2f1",
+      "name": "Beryneck",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-db66286b-be1d-48b6-9c76-12f6c342019c",
+      "name": "Blue Sky Resemble Sorrow",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-13b2bb72-34f0-4ab2-97a1-f0d213dc5fbf",
+      "name": "Butch",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-c0f62e4b-ad50-4827-9aa7-5e7417d00e0d",
+      "name": "Dip Leg",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-9a8e5d21-185e-4ba9-9aa7-c925abcc6f6e",
+      "name": "Emprise",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-ecd67fc0-5890-45c9-ae62-006506f09015",
+      "name": "End All",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-1faed642-1129-44dd-bc34-df042aa3e0f7",
+      "name": "Harogen Lump",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-a7dfe60f-c1c7-42fd-91c0-c9d41bfe35ed",
+      "name": "Joy",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-40faa3d8-0614-4610-b15a-8017d28ccc1f",
+      "name": "Lhasa",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-dbbd9db0-6403-4149-a6a0-37a13fb0b648",
+      "name": "Realized",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-4d275548-3384-48bb-9b45-349d1c9159cd",
+      "name": "Revival Sleep",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-01698a5d-d66d-407a-870b-dd0f8fa8156b",
+      "name": "The North End",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-f9e72601-4032-4b64-b817-123101be8565",
+      "name": "What Ever Film",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-c2442762-cc8d-4ace-9db7-0d14497df464",
+      "name": "heaven in her arms",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-14ee5ab3-f569-4e47-bf05-82b6a6140cad",
+      "name": "pegmap",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-e20f8fce-0da0-4249-8975-51a9b52fade2",
+      "name": "sgt.",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-a2a79787-a25a-4d1f-b2ed-c734941c0580",
+      "name": "aie",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-c100ddca-e44d-4860-8ca4-a7edff14ce97",
+      "name": "CINEMECHANICA",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-5c0c8b50-d67d-4304-80da-94880b64db0f",
+      "name": "nhhmbase",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-a5834c9f-4191-4451-aaee-285b428087e3",
+      "name": "middle9",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-16423d75-9956-45da-ab31-78b2753d0bae",
+      "name": "mouse on the keys",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-96bed76c-46a0-46d3-9195-0d9a5c39294f",
+      "name": "Qomolangma Tomato",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-0a4adc6a-8581-41a8-957d-d4a5afbfe5d4",
+      "name": "Numb",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-ad81a7cd-9718-4e07-9a62-5fe5522db5d3",
+      "name": "Endon",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-270cf410-d7d1-4966-9847-ac3cb8f8d801",
+      "name": "PASTAFASTA",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-13b6ed55-b63d-45a1-929d-adedc330e4b9",
+      "name": "BREAKfAST",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-02d31058-e8c1-4cf1-a62c-41f792c00dc0",
+      "name": "GROUNDCOVER.",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-9f567872-993b-4d5d-aed0-c8cb0bac4de0",
+      "name": "FOUR TOMORROW",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-3b658156-4967-461d-9049-6a14b5c0d564",
+      "name": "V/ACATION",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-234a22f4-c9ec-435a-a912-6241774a3d42",
+      "name": "HARDCORE FANCLUB",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-6f49b94b-5cbd-4b3d-a6b9-8fbf2c82fe08",
+      "name": "the mornings",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-34d53b63-8809-4e45-9780-65e0f509ce2e",
+      "name": "OVUM",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-5ef2a48e-2796-43df-b3f3-75c4443deaa6",
+      "name": "wooderd chiarie",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-b514a91c-572f-45e7-b0da-7d1c20e954f4",
+      "name": "Ryoku",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-d3cf07c8-a87c-404a-8162-34a1a53327f7",
+      "name": "Apes Did Ensemble",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-899bae7e-568c-4c1d-9d8f-6a8dc6abf904",
+      "name": "NAKANO TESSEN",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-c6253978-8eb5-4751-bafe-205469b170f2",
+      "name": "Howling chord",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-8297c4f3-7513-41a4-be47-1450bbb3b8ef",
+      "name": "dry river string",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-4227caab-5bd6-4d74-9709-11202db5deca",
+      "name": "the SHUWA",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-f99d3388-4351-4613-bc0b-0f11f92c8289",
+      "name": "9dw",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-862d2a91-f6e2-4d9c-b5bf-973ce2a98666",
+      "name": "miaou",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-c5a58a06-aad2-4969-82a2-75af8f69445d",
+      "name": "LOW-PASS",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-9c9f16b3-573a-4da5-a2e9-e8988b52c3c0",
+      "name": "Euphoria",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-3009f25d-91b1-4605-bdf6-c02c8efc6ac0",
+      "name": "rega",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-9cfda9db-c1f4-409c-b609-0c993cec6665",
+      "name": "avengers in sci-fi",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-cfc522e2-779d-452f-964e-d96f09bf290b",
+      "name": "condor44",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-420cf92e-6e27-44ab-834a-48712cb57c56",
+      "name": "perfect piano lesson",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-78e34eea-a40e-47ca-9809-3454915c4422",
+      "name": "2up",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-e5847c7a-a0cc-4cff-bbb9-664eb0946285",
+      "name": "FRATENN",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-63b0abfd-4e0d-4e31-9b51-1742e38ab40a",
+      "name": "kyojaku。",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-c81ab565-b184-414a-a73a-e7303c036ac1",
+      "name": "MY WAY MY LOVE",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-1e9dad16-2917-4786-ba48-9a591df674ea",
+      "name": "winnie",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-419a1e68-7eb8-468e-a9c3-658700b88e30",
+      "name": "birds melt sky",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-69b4277f-b9ca-4513-8308-f76b2f3ba8fc",
+      "name": "Christopher Allan Diadora",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-46bd4348-a405-423e-99bc-ef34c7cfbf5d",
+      "name": "thatta",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-f5d8a617-a8fa-4670-8ae0-747de170d4e5",
+      "name": "a picture of her",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-9614ef82-9e03-401e-a552-dab5da5ff6b5",
+      "name": "aquarifa",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-20034728-71bc-472b-9d8b-2300c37ce347",
+      "name": "wozniak",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-691220ee-409c-4b4c-8860-1565c44a0e18",
+      "name": "Clean of core",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-5f6e438f-ee69-4457-9c75-7f8752b5c481",
+      "name": "fresh!",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-98986c39-94d9-461b-bc49-c248f18588b1",
+      "name": "mothercoat",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-79f24e7f-5b79-4c2b-8290-644d27c353d1",
+      "name": "PaperBagLunchbox",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-a12c99ad-57a2-46a0-a8bd-200e4857a2e5",
+      "name": "musiquo musiqua",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-8894acd8-ac2b-491d-9711-be825aa940a2",
+      "name": "RECO.",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-07770ed2-0930-4469-b51c-a91927b3a7a7",
+      "name": "MOROHA",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-86c78988-bbfc-4582-b3fc-4fcc6d1206e0",
+      "name": "Emerald",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-0c736dab-1add-446f-89c5-f6cbd9858b85",
+      "name": "aureole",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-9102c68a-870a-4dc1-81d9-3f5bc3962ab3",
+      "name": "nego",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-68c552b3-bf29-473b-b13f-3e53ffa2bccb",
+      "name": "speaker gain teardrop",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-64854c16-c71b-45df-9c68-8a22b6104560",
+      "name": "filfla",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-72e48839-2767-4726-8487-0c13b978c05b",
+      "name": "oaqk",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-f05a7419-2615-490f-bc8f-5c3de4e9cdbb",
+      "name": "LOVE AND HATES",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-47e47979-eb19-402a-a470-57ac75bf624e",
+      "name": "The New House",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-7c624c58-8c92-4882-bb25-9dfbb03025d4",
+      "name": "The Brixton Academy",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-4bfded90-80c4-4ae9-908a-ffbcb173ece4",
+      "name": "strange world's end",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-80bfabb8-5fa2-4c5b-9a97-81af6903bcf9",
+      "name": "LIFESHOP",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-532b97c2-2f25-4255-b54b-8405e40d58ee",
+      "name": "ARTLESS NOTE",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-a755848e-661c-43f6-afc9-6b30171ed7aa",
+      "name": "KENNY BAKER",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-6e52e921-69a7-4eb9-9b15-9933728a72c5",
+      "name": "music from the mars",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-773c148a-eb0c-4cb0-a9f0-1ee6a2365e64",
+      "name": "LOOLOWNINGEN & THE FAR EAST IDIOTS",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-e28694df-da14-4d4b-a0cc-e92986eedcef",
+      "name": "Aussitot Mort",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-f65aa671-bc84-4a5d-bc45-7ed872c3600a",
+      "name": "Owen",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-929e6813-afe9-410b-95b2-11d3e9dd5ab6",
+      "name": "Into It. Over It.",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-b4d505e6-2fad-4caa-8dc3-ca00496e3161",
+      "name": "THE BLACK HEART REBELLION",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-1f5db0d0-763f-49af-9895-da1440d6467c",
+      "name": "fam",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-8cd64c6c-6cb5-4e0a-b544-6b7a89d4e50b",
+      "name": "Breaking First Entertainer",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-a653d923-8057-4704-bc94-b8df9eccae13",
+      "name": "TOTALFAT",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-4111c8af-4f6f-43aa-88fe-14b22b71ea96",
+      "name": "UPPER",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-fb274b81-73d9-4036-a11c-9c6be90b7e5c",
+      "name": "GOOD4NOTHING",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-055c0029-db59-4a18-9eca-4959b64b62ee",
+      "name": "AIRFLIP",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-d19bd76b-14bb-498c-9703-95dd9bc8aade",
+      "name": "國",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-6e5e852b-ce1d-45c3-b692-89edd84c7cce",
+      "name": "NOUGAT",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-bc1cd4fe-6c6b-4567-9592-f75b09354b42",
+      "name": "GEVABOW",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-de8f43f0-b383-4d9d-b171-a00c4bf64fba",
+      "name": "EL NUDO",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-8519cd2b-b43a-43bd-a77b-656e155b713f",
+      "name": "DUSTPAN",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-d766c364-fd3c-4b2a-b9a8-23e4fab77b21",
+      "name": "SWINGBRAIN",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-3f27ec93-84fa-40d6-a091-5a8bd8df8f73",
+      "name": "Apes",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-42a75bc6-cae9-4d27-9c9d-9892185fd756",
+      "name": "COUNTRY YARD",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-ca625279-f813-4c4c-9f0b-30c6e5f5bec2",
+      "name": "NOIMAGE",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-2aff74d9-1a29-40b0-bf1e-1b7019790d73",
+      "name": "The Fadeaways",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-042d557d-9b13-45f7-9f41-48e801b277a4",
+      "name": "NUMBERTWO",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-b7202d83-9cfc-42d7-b715-6a24d7505163",
+      "name": "BLACK HOURS",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-7754d719-db63-4ecb-be15-e83798d5c49d",
+      "name": "THE RYDERS",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-914b4b81-26bf-4099-8c1f-ef2f209b51e0",
+      "name": "THE DISASTER POINTS",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-a3d22341-ebd2-4422-8376-37d6da3820ee",
+      "name": "FUNGUS",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-baacc7e3-d0e7-432d-8847-3483fbcd5fa9",
+      "name": "REDNECKS",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-f5909df5-c63b-412c-a19e-2616dcec71df",
+      "name": "BAREBONES",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-470666b1-92b8-4b72-9205-12b6fdf02a26",
+      "name": "DERIDE",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-3af79f23-69c2-4a4c-98e4-6038c58af27d",
+      "name": "SACOYANS",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-01fca70b-e3f6-4353-a6f3-5c1aaed7f443",
+      "name": "aldo van eyck",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-efc71a29-456f-49fc-98af-bace449f66a3",
+      "name": "Nikoん",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-287a44fe-1d77-4a91-8b3b-9d90d88d8440",
+      "name": "recess",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-1aa97ef6-03fa-4607-841b-1a82abcc81ef",
+      "name": "UNMASK aLIVE",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-c89de1fa-eb68-4f88-ba00-9a1fd3f2601c",
+      "name": "Winter Wakes",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-dc53311d-ca74-438f-a414-0b36a6eb36e2",
+      "name": "DEAD STOCK",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-bdc36191-dddb-4a9e-b1fe-a305ed53aef7",
+      "name": "FREE KICK",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-11d34de1-ab80-4695-8e46-b628cde26457",
+      "name": "SonoSheet",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-95f5aa00-c875-4a52-8b3f-3606d79fb31a",
+      "name": "Seskimo",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-46834930-7947-47a2-87a9-8fddc9d3ad69",
+      "name": "FINLANDS",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-59300d6c-8fc2-4726-b624-fbbe58911755",
+      "name": "SideChest",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-73ae4c00-4642-4e24-900b-0b0278e7aa51",
+      "name": "FANCLUB",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-02978efa-5230-471a-882b-0e2c8469b1ba",
+      "name": "sassya-",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-978e9434-59e2-4664-aa2e-c57e1e01b984",
+      "name": "The Keeley",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-78498dd5-320a-4ad0-93bb-edcf34f7669d",
+      "name": "kamomekamome",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-f68bb268-12cb-42b3-a47d-b9c7da3afda2",
+      "name": "OLEDICKFOGGY",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-bd5a415a-7a2b-485f-b1fb-59fc73993d9b",
+      "name": "DNA GAINZ",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-d3b3ca73-1d2d-414f-8f96-7c7398c6b9e4",
+      "name": "Gill Snatch",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-926575de-d414-479d-9e2b-a33f7b66e7eb",
+      "name": "ayutthaya",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-9f2851b2-0f05-4d0e-874c-40f9f413776a",
+      "name": "その感激と記録",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-de6c4492-4c4c-46d3-99a3-5ec84f5180df",
+      "name": "SUN TAiL",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-255ae25b-1968-44ab-b23d-c72a5518d9d3",
+      "name": "Roti Art",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-266e5cdb-034e-463c-b252-2640b5d3adca",
+      "name": "デキシード・ザ・エモンズ",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-47f037c1-a688-4677-8d5c-ab0937ee594e",
+      "name": "GYOGUN REND’S",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-c30b4da3-300c-4d7a-91bb-81dd6ccec8ba",
+      "name": "BUG/VISION",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-e35d9de5-48da-4c1a-a9b0-5168a3c4ce33",
+      "name": "あすなろ白昼夢",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-675f10f9-539d-43d8-9c11-d3d351748d9f",
+      "name": "チセツナガラ",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-c43b7409-048e-4cb2-b9f0-b7ca7a4dbdb3",
+      "name": "板歯目",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-415cda4b-2f7d-4667-8bb8-7ea3c6546c44",
+      "name": "ノーボアダムズ",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-d8aeb934-320c-4d4e-86f4-4332af425ccd",
+      "name": "summerhead",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-733b0e4a-f28f-414c-a3e6-dbc85fb7f940",
+      "name": "変態エンジン",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-9da1853d-877f-400a-9ddd-442ac4c9f4e3",
+      "name": "ガストバーナー",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-0cb1a189-c3da-451a-8562-1edc2444539c",
+      "name": "モーモールルギャバン",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-edd64221-038f-4a1c-95e1-f05e99d769f7",
+      "name": "ザ・カレーズ",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-c660f8f2-2cb4-4c4e-a744-8d1e604e3084",
+      "name": "Palastleben",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-580935ef-62c4-4a5f-a608-620e521ac012",
+      "name": "狂気",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-ff132f61-02bd-4440-a1c0-94bb0de50c42",
+      "name": "Forbear",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-708cad52-188d-47c6-9951-fd70de0999dc",
+      "name": "ZENOCIDE",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-d20affc1-6a64-4055-be4d-806cb8619f3a",
+      "name": "CONGRATULATIONS",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-33513994-2bb8-4ca2-8c66-2d3227843641",
+      "name": "THE SENSATIONS",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-a9efe7f2-dd97-4074-8bd9-1aa6f6ec2053",
+      "name": "STARVINGMAN",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-d3e0e9e8-dbd6-4364-8af5-a9d2e40b0912",
+      "name": "yellow gang",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-c9becc95-2339-4072-b7e8-2e73301a158e",
+      "name": "SCOOBIE DO",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-428e27a8-34e6-41e8-82c4-3788d48cd93c",
+      "name": "FIVE STATE DRIVE",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-8224843f-2f76-457f-9498-176d79fea1b8",
+      "name": "ザ ニンクス",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-3b17572d-c043-4dc0-8370-41e096f93e83",
+      "name": "カライドスコープ",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-f107151c-17aa-4da7-b561-92d54a47ed5a",
+      "name": "Fennel",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-f5b18964-b605-4147-8b0d-9974c7eca336",
+      "name": "Texas 3000",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-a439f1a8-2ddd-4d5d-953e-46e77e993ab7",
+      "name": "ルサンチマン",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-5b96b5c6-3bfe-47c5-9fc4-8cbbb0801784",
+      "name": "Relents",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-8d2b75ab-c7b6-4a6c-997c-cdd1967219b8",
+      "name": "IRIKO",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-717835d3-7b2c-4474-9a4e-bf0580947d87",
+      "name": "mabuta",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-e4776356-d096-412f-97ff-5cc787e92b41",
+      "name": "SEVENTEEN AGAiN",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-f308a2a2-2930-44c9-984f-5d34f5bf4e80",
+      "name": "yubiori",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-1e960218-71dd-415c-8020-f99a70ed144b",
+      "name": "Make The Pancake",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-ea05dfec-8dfd-459f-b4a0-d156da301d0f",
+      "name": "THE LET’S GO’s",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-b5c9143a-7c19-4161-bfbf-a6cda424008e",
+      "name": "THE PRETTY TONES",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-60a39103-4d01-4222-804a-0666fed53eb4",
+      "name": "LONDS OF THREE",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-7b3e86cb-67ea-40a9-b00d-eb201a1ad22d",
+      "name": "WOLF the ROCKS",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-9fd2a94f-ebaa-4d2f-9db8-80ed7673d868",
+      "name": "HOT&COOL",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-92732577-b83a-479c-9ac9-c575891d7570",
+      "name": "音速ライン",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-3b43fb46-3e33-4dbe-ad33-03cff155c45c",
+      "name": "nerdneko",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
+    },
+    {
+      "id": "c-e31d5322-9395-4918-91ae-52e19e41d8df",
+      "name": "hananashi",
+      "reading": "",
+      "prefectures": [],
+      "labels": [],
+      "videos": []
     }
   ]
 }
