@@ -14,3 +14,4 @@
 .video-choices .video-tile[aria-pressed="true"]{outline:3px solid var(--green);background:var(--soft)}
 .search-warning{padding:14px;background:#f3ecd8;border-left:3px solid #887443;line-height:1.7}
 @media(max-width:480px){.video-choices{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.video-tile-title{font-size:12px}.video-tile small{font-size:10px}}
+.video-choices .video-tile[aria-pressed="true"],.video-choices .video-tile .video-tile-title{color:var(--green)}
