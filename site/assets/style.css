@@ -28,3 +28,9 @@
 .video-choices button[aria-pressed="true"]{background:var(--soft);color:var(--dark)}
 #japan-map path.has-bands:hover,#japan-map path.has-bands:focus,#japan-map path.has-bands.selected{fill:var(--dark)}
 @media(max-width:620px){.wordmark{font-size:24px}.brand-caption{display:none}.site-header{align-items:center}.hero h1{font-size:29px}.hero-art{border-radius:2px}.site-header nav{font-size:10px;max-width:190px}.site-header nav a{padding:4px 0}}
+
+/* Final supplied logo artwork: intrinsic aspect ratio is preserved. */
+.brand-image{display:block;width:180px;flex-shrink:0}.brand-image img{display:block;width:100%;height:auto}.brand{gap:0}.site-header{min-height:132px}.logo-showcase{padding:0;background:transparent;min-height:0;border-radius:0;overflow:visible}.hero-logo{display:block;width:100%;height:auto;object-fit:contain}.hero-art.logo-showcase{height:auto}.hero{grid-template-columns:1.05fr 1.1fr}.hero-logo{max-width:550px}
+@media(max-width:900px){.brand-image{width:155px}.site-header{min-height:115px}}
+@media(max-width:620px){.brand-image{width:160px}.site-header{min-height:108px;padding:15px 18px;gap:16px}.site-header nav{max-width:155px}.hero{grid-template-columns:1fr}.hero-art.logo-showcase{max-width:100%;width:100%;height:auto;min-height:0}.hero-logo{max-width:380px}.hero-art.logo-showcase{margin-top:6px}}
+@media(max-width:360px){.brand-image{width:135px}.site-header nav{max-width:135px;font-size:9px}}
