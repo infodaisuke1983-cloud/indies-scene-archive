@@ -48,3 +48,6 @@
 
 /* Optional source link under the listening location. */
 .band-reference{display:inline-block;font-size:.82rem;color:#77736D;line-height:1.6;margin:0 0 12px;text-decoration:underline;text-underline-offset:4px}.band-reference:hover{color:#3E3E3E}.band-reference:focus-visible{outline:2px solid #77736D;outline-offset:5px;border-radius:2px}
+
+/* Detail branding uses the approved IMM image without distortion. */
+.detail-symbol{width:180px;height:auto;aspect-ratio:950/480;border:0;border-radius:0;background:transparent;font-size:0}.detail-symbol img{display:block;width:100%;height:auto;object-fit:contain}
