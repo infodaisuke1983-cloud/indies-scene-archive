@@ -49,7 +49,28 @@ function renderMap(){const NS='http://www.w3.org/2000/svg',svg=document.createEl
 function initials(){for(const [s,target]of [['あかさたなはまやらわその他','#kana'],['ABCDEFGHIJKLMNOPQRSTUVWXYZ','#alphabet']]){const chars=target==='#kana'?['あ','か','さ','た','な','は','ま','や','ら','わ','その他']:[...s];for(const c of chars){const b=node('button',{type:'button',text:c,'data-initial':c,'aria-pressed':'false','aria-label':c+'から始まるバンド'});b.addEventListener('click',()=>{selectedInitial=selectedInitial===c?'':c;renderResults();saveFilters();});$(target).append(b);}}}
 function renderResults(){if(!data)return;const f=filters(),bands=C.filter(data.bands,f).sort((a,b)=>C.normalize(a.reading||a.englishName||a.name).localeCompare(C.normalize(b.reading||b.englishName||b.name),'ja')||a.id.localeCompare(b.id));$('#result-count').textContent=bands.length+' BANDS / 全 '+data.bands.length+'件';$('#map-current').textContent=f.pref||'全国';$('#filter-note').textContent=[f.q&&'「'+f.q+'」',f.pref,f.era&&(f.era==='unknown'?'年代不明':f.era+'年代'),f.initial&&f.initial+'から始まる',f.label].filter(Boolean).join(' / ');document.querySelectorAll('[data-initial]').forEach(b=>{const on=b.dataset.initial===f.initial;b.classList.toggle('active',on);b.setAttribute('aria-pressed',on)});$('#initial-all').classList.toggle('active',!f.initial);$('#initial-all').setAttribute('aria-pressed',!f.initial);document.querySelectorAll('[data-pref]').forEach(b=>{b.classList.toggle('selected',b.dataset.pref===f.pref);b.classList.toggle('active',b.dataset.pref===f.pref);b.classList.toggle('has-bands',data.bands.some(x=>x.prefectures.includes(b.dataset.pref)));if(b.tagName.toLowerCase()==='path')b.setAttribute('aria-pressed',b.dataset.pref===f.pref);});
  if(!bands.length){const empty=node('div',{class:'empty'},[node('div',{class:'empty-symbol','aria-hidden':'true',text:'◎'}),node('h3',{text:data.bands.length?'条件に合うバンドが見つかりませんでした。':'アーカイブは、これから少しずつ。'}),node('p',{text:data.bands.length?'検索条件を変えて、もう一度探してみてください。':'公開中のバンドはまだありません。\n公開資料で確認したバンドから収録していきます。'})]);if(data.bands.length){const b=node('button',{type:'button',text:'検索条件をクリア'});b.addEventListener('click',reset);empty.append(b);}$('#results').replaceChildren(empty);return;}
- $('#results').replaceChildren(...bands.map((b,i)=>{const a=node('a',{class:'band-card',href:bandHref(b.id),'data-testid':'band-card'},[node('span',{class:'number',text:String(i+1).padStart(3,'0')+' / '+(b.prefectures.join('・')||'活動拠点未確認')}),node('h3',{text:b.name}),node('p',{text:b.videos.length?b.videos.length+' VIDEOS':'動画準備中'}),node('span',{class:'card-arrow','aria-hidden':'true',text:'↗'})]);return a;}));}
+ renderDirectoryGroups(bands,f);}
+let directoryOpenGroup='',directoryFilterKey='';
+function directoryGroup(b){const c=C.initial(b);if(/^[A-F]$/.test(c))return 'A–F';if(/^[G-L]$/.test(c))return 'G–L';if(/^[M-R]$/.test(c))return 'M–R';if(/^[S-Z]$/.test(c))return 'S–Z';return c==='その他'?'数字・その他':'あ〜わ';}
+function renderDirectoryGroups(bands,f){
+ const root=$('#results'),key=JSON.stringify(f),filtered=Object.values(f).some(Boolean),groups=['あ〜わ','A–F','G–L','M–R','S–Z','数字・その他'].map(name=>({name,bands:bands.filter(b=>directoryGroup(b)===name)})).filter(g=>g.bands.length);
+ if(key!==directoryFilterKey){directoryFilterKey=key;directoryOpenGroup=filtered?groups[0].name:'';}
+ const rank=new Map(bands.map((b,i)=>[b.id,i+1]));
+ const help=node('p',{class:'directory-help',text:filtered?'絞り込み結果です。見出しを押すと一覧を切り替えられます。':'名前の区分を押すと、バンド一覧が開きます。'});
+ const folders=groups.map(g=>{
+  const d=node('details',{class:'band-folder',name:'band-directory'});
+  const summary=node('summary',{},[node('span',{class:'folder-name',text:g.name}),node('span',{class:'folder-count',text:g.bands.length+' 組'})]);
+  const list=node('div',{class:'band-grid folder-grid'}),more=node('button',{type:'button',class:'folder-more'});
+  let shown=0;
+  const append=()=>{const end=Math.min(shown+12,g.bands.length);for(const b of g.bands.slice(shown,end))list.append(node('a',{class:'band-card',href:bandHref(b.id),'data-testid':'band-card'},[node('span',{class:'number',text:String(rank.get(b.id)).padStart(3,'0')+' / '+(b.prefectures.join('・')||'活動拠点未確認')}),node('h3',{text:b.name}),node('p',{text:b.videos.length?b.videos.length+' VIDEOS':'動画準備中'}),node('span',{class:'card-arrow','aria-hidden':'true',text:'↗'})]));shown=end;more.hidden=shown>=g.bands.length;more.textContent='さらに'+Math.min(12,g.bands.length-shown)+'組を表示（'+shown+' / '+g.bands.length+'組）';};
+  more.addEventListener('click',append);
+  d.append(summary,list,more);
+  d.addEventListener('toggle',()=>{if(!d.isConnected)return;if(d.open){directoryOpenGroup=g.name;if(!shown)append();}else if(directoryOpenGroup===g.name)directoryOpenGroup='';});
+  if(directoryOpenGroup===g.name){d.open=true;append();}
+  return d;
+ });
+ root.replaceChildren(help,...folders);
+}
 function renderDetail(id){const b=data.bands.find(b=>b.id===id),article=$('#detail');$('#home').hidden=true;article.hidden=false;const back=anchor('← バンド一覧へ',lastListHash||'#directory','back');if(!b){article.replaceChildren(back,node('h1',{text:'このバンドは公開されていません。'}));return;}
 const heading=node('div',{class:'detail-heading'},[node('div',{},[node('p',{class:'eyebrow',text:'LISTEN / '+(b.prefectures.join('・')||'活動拠点未確認')}),...(b.referenceUrl?[safeLink('参考リンク ↗',b.referenceUrl,'band-reference')]:[]),node('h1',{text:b.name})]),node('div',{class:'detail-symbol','aria-hidden':'true'},[node('img',{src:'./assets/imm-sub-logo.svg',alt:'',width:950,height:480})])]);
 const videos=node('section',{class:'detail-section'},[node('h2',{text:'YouTubeで音楽を聴く'}),node('p',{class:'quiet',text:'動画を選ぶとYouTubeに接続します。再生できない場合は「YouTubeで開く」からご確認ください。'})]);
