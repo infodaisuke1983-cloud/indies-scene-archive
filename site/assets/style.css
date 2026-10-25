@@ -51,3 +51,13 @@
 
 /* Detail branding uses the approved IMM image without distortion. */
 .detail-symbol{width:180px;height:auto;aspect-ratio:950/480;border:0;border-radius:0;background:transparent;font-size:0}.detail-symbol img{display:block;width:100%;height:auto;object-fit:contain}
+
+/* Band directory: one compact folder at a time, twelve cards per reveal. */
+.directory-groups{display:block}.directory-help{font-size:12px;color:var(--muted);margin:0 0 18px}
+.band-folder{border:1px solid var(--line);border-radius:4px;background:var(--white);margin:0 0 10px;overflow:visible}
+.band-folder>summary{padding:18px 22px;gap:18px;font-size:16px;font-weight:500;min-height:64px}
+.band-folder>summary::after{font-size:20px;color:var(--muted)}.folder-name{letter-spacing:.06em}.folder-count{margin-left:auto;font-size:12px;font-weight:400;color:var(--muted)}
+.band-folder[open]>summary{border-bottom:1px solid var(--line);background:var(--soft)}
+.folder-grid{padding:18px;gap:12px}.folder-grid .band-card{padding:18px;min-height:145px}.folder-grid .band-card h3{font-size:19px;margin:10px 0 8px}.folder-grid .card-arrow{right:15px;bottom:12px}
+.folder-more{display:block;margin:0 auto 20px;padding:10px 22px;background:transparent;border:1px solid var(--line);border-radius:3px;font-size:12px;min-height:44px}.folder-more:hover{background:var(--soft)}
+@media(max-width:620px){.band-folder>summary{padding:16px;font-size:15px}.folder-grid{padding:12px}.folder-grid .band-card{min-height:130px}.directory-help{font-size:11px}}
