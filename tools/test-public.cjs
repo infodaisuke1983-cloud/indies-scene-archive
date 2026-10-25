@@ -11,3 +11,8 @@ assert.throws(()=>C.validate({...contract,bands:[{...contract.bands[0],videos:[s
 assert.throws(()=>C.validate({...contract,bands:[{...contract.bands[0],videos:[{...searched,thumbnail:'https://i.ytimg.com.evil.invalid/a'}]}]}));
 assert.throws(()=>C.validate({...contract,bands:[{...contract.bands[0],adminNotes:'private'}]}));
 console.log('Thumbnail, search-result warning contract, aliases, duplicate and private-field tests passed.');
+const withReference={...contract,bands:[{...contract.bands[0],referenceUrl:'https://example.org/band'}]};
+assert.equal(C.validate(withReference).bands[0].referenceUrl,'https://example.org/band');
+for(const url of ['javascript:alert(1)','data:text/html,bad','https://user:secret@example.org','not a url',''])assert.throws(()=>C.validate({...withReference,bands:[{...withReference.bands[0],referenceUrl:url}]}));
+assert.throws(()=>C.validate({...withReference,bands:[{...withReference.bands[0],source:'private'}]}));
+console.log('Optional public reference link accepted; unsafe URLs and private source fields rejected.');
