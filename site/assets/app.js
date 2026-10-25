@@ -53,23 +53,17 @@ function renderResults(){if(!data)return;const f=filters(),bands=C.filter(data.b
 let directoryOpenGroup='',directoryFilterKey='';
 function directoryGroup(b){const c=C.initial(b);if(/^[A-F]$/.test(c))return 'A–F';if(/^[G-L]$/.test(c))return 'G–L';if(/^[M-R]$/.test(c))return 'M–R';if(/^[S-Z]$/.test(c))return 'S–Z';return c==='その他'?'数字・その他':'あ〜わ';}
 function renderDirectoryGroups(bands,f){
- const root=$('#results'),key=JSON.stringify(f),filtered=Object.values(f).some(Boolean),groups=['あ〜わ','A–F','G–L','M–R','S–Z','数字・その他'].map(name=>({name,bands:bands.filter(b=>directoryGroup(b)===name)})).filter(g=>g.bands.length);
- if(key!==directoryFilterKey){directoryFilterKey=key;directoryOpenGroup=filtered?groups[0].name:'';}
- const rank=new Map(bands.map((b,i)=>[b.id,i+1]));
- const help=node('p',{class:'directory-help',text:filtered?'絞り込み結果です。見出しを押すと一覧を切り替えられます。':'名前の区分を押すと、バンド一覧が開きます。'});
- const folders=groups.map(g=>{
-  const d=node('details',{class:'band-folder',name:'band-directory'});
-  const summary=node('summary',{},[node('span',{class:'folder-name',text:g.name}),node('span',{class:'folder-count',text:g.bands.length+' 組'})]);
-  const list=node('div',{class:'band-grid folder-grid'}),more=node('button',{type:'button',class:'folder-more'});
-  let shown=0;
-  const append=()=>{const end=Math.min(shown+12,g.bands.length);for(const b of g.bands.slice(shown,end))list.append(node('a',{class:'band-card',href:bandHref(b.id),'data-testid':'band-card'},[node('span',{class:'number',text:String(rank.get(b.id)).padStart(3,'0')+' / '+(b.prefectures.join('・')||'活動拠点未確認')}),node('h3',{text:b.name}),node('p',{text:b.videos.length?b.videos.length+' VIDEOS':'動画準備中'}),node('span',{class:'card-arrow','aria-hidden':'true',text:'↗'})]));shown=end;more.hidden=shown>=g.bands.length;more.textContent='さらに'+Math.min(12,g.bands.length-shown)+'組を表示（'+shown+' / '+g.bands.length+'組）';};
-  more.addEventListener('click',append);
-  d.append(summary,list,more);
-  d.addEventListener('toggle',()=>{if(!d.isConnected)return;if(d.open){directoryOpenGroup=g.name;if(!shown)append();}else if(directoryOpenGroup===g.name)directoryOpenGroup='';});
-  if(directoryOpenGroup===g.name){d.open=true;append();}
-  return d;
- });
- root.replaceChildren(help,...folders);
+ const root=$('#results'),key=JSON.stringify(f),groups=['あ〜わ','A–F','G–L','M–R','S–Z','数字・その他'].map((name,i)=>({name,index:i+1,bands:bands.filter(b=>directoryGroup(b)===name)})).filter(g=>g.bands.length);
+ if(key!==directoryFilterKey){directoryFilterKey=key;directoryOpenGroup='';}
+ if(!groups.some(g=>g.name===directoryOpenGroup))directoryOpenGroup=groups[0].name;
+ const shelves=node('div',{class:'record-shelves',role:'group','aria-label':'バンド名の区分'}),panel=node('div',{class:'record-panel',id:'record-panel'});
+ const label=node('h3',{class:'record-selection'}),list=node('div',{class:'record-band-list'}),more=node('button',{type:'button',class:'folder-more'});
+ panel.append(label,list,more);let shown=0,current;
+ function append(){const end=Math.min(shown+12,current.bands.length);for(const b of current.bands.slice(shown,end))list.append(node('a',{class:'record-band',href:bandHref(b.id),'data-testid':'band-card'},[node('span',{class:'record-band-text'},[node('span',{class:'record-band-name',text:b.name}),node('small',{text:(b.prefectures.join('・')||'活動拠点未確認')+' / '+(b.videos.length?b.videos.length+' VIDEOS':'動画準備中')})]),node('span',{'aria-hidden':'true',text:'↗'})]));shown=end;more.hidden=shown>=current.bands.length;more.textContent='さらに'+Math.min(12,current.bands.length-shown)+'組を表示（'+shown+' / '+current.bands.length+'組）';}
+ function select(g){directoryOpenGroup=g.name;current=g;shown=0;list.replaceChildren();label.textContent=g.name+' / '+g.bands.length+' BANDS';shelves.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.group===g.name)));append();}
+ more.addEventListener('click',append);
+ for(const g of groups){const button=node('button',{type:'button',class:'record-sleeve','data-group':g.name,'aria-controls':'record-panel','aria-pressed':g.name===directoryOpenGroup},[node('span',{class:'record-number',text:'IMM — '+String(g.index).padStart(2,'0')}),node('span',{class:'record-letter'+(g.index===1||g.index===6?' record-jp':''),text:g.name}),node('span',{class:'record-foot'},[node('span',{text:g.bands.length+' BANDS'}),node('span',{'aria-hidden':'true',text:'↗'})]),node('span',{class:'record-cable','aria-hidden':'true'},[node('img',{src:'./assets/imm-sub-logo.svg',alt:'',width:950,height:480})])]);button.addEventListener('click',()=>select(g));shelves.append(button);}
+ root.replaceChildren(node('p',{class:'record-intro',text:'一枚を選ぶように。'}),shelves,panel);select(groups.find(g=>g.name===directoryOpenGroup));
 }
 function renderDetail(id){const b=data.bands.find(b=>b.id===id),article=$('#detail');$('#home').hidden=true;article.hidden=false;const back=anchor('← バンド一覧へ',lastListHash||'#directory','back');if(!b){article.replaceChildren(back,node('h1',{text:'このバンドは公開されていません。'}));return;}
 const heading=node('div',{class:'detail-heading'},[node('div',{},[node('p',{class:'eyebrow',text:'LISTEN / '+(b.prefectures.join('・')||'活動拠点未確認')}),...(b.referenceUrl?[safeLink('参考リンク ↗',b.referenceUrl,'band-reference')]:[]),node('h1',{text:b.name})]),node('div',{class:'detail-symbol','aria-hidden':'true'},[node('img',{src:'./assets/imm-sub-logo.svg',alt:'',width:950,height:480})])]);
